@@ -4,7 +4,7 @@ from src.controllers.tag_creator_controller import TagCreatorController
 
 class TagCreatorView:
     '''
-        responsability for interacting with http
+        responsavel por interagir com o http
     '''
 
     def validade_and_create(self, http_request: HttpRequest) -> HttpResponse:
